@@ -1,0 +1,49 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+//VINCULOS DE IMAGEN (OPEN)
+.box-tiff, .box-bmp {
+    .vincular-elementos{
+        a{
+           display: block;
+           width: 100%;
+        }
+    }
+}
+//VINCULOS DE IMAGEN (CLOSE)//
+
+//VINCULOS DE AUDIO (OPEN)
+.box {
+    .vincular-elementos{
+
+        .metadatos{
+            margin: 0 auto;
+            max-width: 30rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
+            p{
+                padding: 1rem 0;
+                margin: 0 0 1rem 0;
+                text-align: center;
+                border-radius: 10rem;
+                background-color: v.$cafeClaro;
+            }
+        }
+
+    }
+}
+//VINCULOS DE VIDEO (OPEN)
+.video {
+    margin: 0 auto 1rem auto;
+    padding: 1rem;
+    background-color: v.$cafeClaro;
+    max-width: 26rem;
+    max-height: 13.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 1rem;    
+}
+//VINCULOS DE VIDEO (CLOSE)

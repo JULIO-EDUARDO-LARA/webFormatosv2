@@ -1,0 +1,16 @@
+@use 'base/variables' as v;
+@use 'base/mixins' as m;
+
+/*clasificacion presentes en:
+audio.html
+*/ 
+.clasificacion {
+    margin-top: 6rem;
+    .clasificacion-texto{
+        margin: 0 auto;
+        max-width: 70rem;
+        border: 1px solid v.$negro;
+        border-radius: 1rem;
+        padding: 2rem 4rem;
+    }
+}

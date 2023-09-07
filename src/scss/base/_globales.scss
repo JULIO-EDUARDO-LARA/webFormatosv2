@@ -1,0 +1,40 @@
+@use 'variables' as v;
+
+
+html{
+    font-size: 62.5%;//1 rem = 10 px
+    box-sizing: border-box;//snipet paul irish
+}
+*,*:before,*:after {
+    box-sizing: inherit;//snipet paul irish
+}
+
+body{
+    font-family: v.$fuente_secundaria;
+    font-size: 1.6rem;
+    background-color: v.$cafeClaro;
+}
+p{
+    color: v.$negro;
+    font-size: 1.6rem;
+    line-height: 2;
+    text-align: justify;
+}
+.contenedor {
+    width: 95%;
+    max-width: 120rem;
+    margin: 0 auto;
+
+}
+a {
+    text-decoration: none;
+}
+img {
+    width: 100%;
+    display: block;
+}
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
